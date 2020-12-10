@@ -118,5 +118,21 @@ public class DataStructuresTest {
         testAVL.delete(40);
         testAVL.delete(50);
         System.out.println("Balanced tree after deletions:\n" + testAVL);
+
+        // Test the unordered map class.
+        System.out.println("\nUnordered Map Tests!");
+        UnorderedMap<Integer, String> testUnorderedMap = new UnorderedMap<Integer, String>();
+
+        testUnorderedMap.put(0, "a");
+        testUnorderedMap.put(1, "b");
+        testUnorderedMap.put(2, "c");
+        testUnorderedMap.put(3, "d");
+        System.out.println("The map before removal:\n" + testUnorderedMap);
+        System.out.println("Removing: " + testUnorderedMap.remove(1));
+        System.out.println("Removing: " + testUnorderedMap.remove(2));
+        System.out.println("The map after removal:\n" + testUnorderedMap);
+
+        // Test the hash map class.
+        System.out.println("\nHash Map Tests!");
     }
 }

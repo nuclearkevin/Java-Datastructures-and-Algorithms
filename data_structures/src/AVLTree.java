@@ -1,5 +1,4 @@
 // Part of the data structures library written by Kevin Sawatzky as preparation for the final exam for CSCI-2010U.
-// WIP, AVL trees are hard.
 public class AVLTree<T> {
     private Node root;
 
