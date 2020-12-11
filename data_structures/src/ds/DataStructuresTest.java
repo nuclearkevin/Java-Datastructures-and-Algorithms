@@ -90,6 +90,18 @@ public class DataStructuresTest {
         System.out.println("ArrayList capacity: " + testList.getCapacity());
         System.out.println("ArrayList size: " + testList.getLength());
 
+        // Test the ArrayBST class.
+        System.out.println("\nArrayBST Tests!");
+        ArrayBST testArrayBST = new ArrayBST(5);
+
+        testArrayBST.insert("a", 10);
+        testArrayBST.insert("b", 20);
+        testArrayBST.insert("c", 30);
+        testArrayBST.insert("d", 40);
+        testArrayBST.insert("e", 50);
+        testArrayBST.insert("f", 25);
+        System.out.println("The tree:\n" + testArrayBST);
+
         // Test the BST class.
         System.out.println("\nBST Tests!");
         BinarySearchTree<String> testBST = new BinarySearchTree<String>();
