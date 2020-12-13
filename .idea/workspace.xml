@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce70d11b-66bc-417e-8d50-a1719d479b55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ds/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ds/LinHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ds/LinkedChainingHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ds/QuadHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ds/UnorderedLinkedMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Datastructures-and-Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Datastructures-and-Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/data_structures.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/AVLTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/AVLTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/ArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/BinarySearchTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/DataStructuresTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/LinkedQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/LinkedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/LinkedStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/LinkedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/SortedArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/SortedDoublyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/SortedDoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/SortedSinglyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/SortedSinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/UnsortedArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/UnsortedDoublyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/UnsortedDoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/UnsortedSinglyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/out/production/data_structures/UnsortedSinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/alg/AlgorithmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/AlgorithmsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/alg/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/alg/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/ArrayBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/ArrayBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/DataStructuresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/DataStructuresTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/ReHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/LinHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/LinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/QuadHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/SortedArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/SortedArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/SortedDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/SortedDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/SortedSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/SortedSinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/UnorderedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/UnorderedArrayMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/UnsortedArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/UnsortedArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/UnsortedDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/UnsortedDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/src/ds/UnsortedSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/UnsortedSinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/AlgorithmsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/AVLTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/AVLTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayBST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/BinarySearchTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/DataStructuresTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/HashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinkedQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinkedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinkedStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinkedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/QuadHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/SortedArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/SortedDoublyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/SortedDoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/SortedSinglyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/SortedSinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/UnorderedMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/UnsortedArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/UnsortedDoublyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/UnsortedDoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/UnsortedSinglyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/UnsortedSinglyLinkedList.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lZSZGFnsKK8h5tyW2UgYzEbgBk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce70d11b-66bc-417e-8d50-a1719d479b55" name="Default Changelist" comment="" />
+      <created>1607803173678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607803173678</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1607805013313">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1607805013313" />
+    <state x="777" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607828013592">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="777" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053" timestamp="1607828013592" />
+  </component>
+</project>
