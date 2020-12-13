@@ -1,7 +1,9 @@
 // Part of the data structures library written by Kevin Sawatzky as preparation for the final exam for CSCI-2010U.
+// TODO: Implement good AVL deletion.
 package ds;
 public class AVLTree<E> {
     private Node root;
+    private int numStored;
 
     // Inner class to store tree data.
     private class Node {
@@ -21,6 +23,7 @@ public class AVLTree<E> {
         }
     }
     public AVLTree () {
+        this.numStored = 0;
         this.root = null;
     }
 
@@ -34,6 +37,7 @@ public class AVLTree<E> {
             this.insert(this.root, newNode);
         }
         this.rebalance(this.root);
+        this.numStored ++;
     }
 
     // Recursively inserts into the AVL tree. Also rebalances the tree.
@@ -42,6 +46,7 @@ public class AVLTree<E> {
             if (location.leftChild == null) {
                 location.leftChild = toInsert;
                 toInsert.parent = location;
+                this.numStored ++;
             } else {
                 this.insert(location.leftChild, toInsert);
             }
@@ -49,11 +54,12 @@ public class AVLTree<E> {
             if (location.rightChild == null) {
                 location.rightChild = toInsert;
                 toInsert.parent = location;
+                this.numStored ++;
             } else {
                 this.insert(location.rightChild, toInsert);
             }
         }
-        rebalance(location);
+        this.rebalance(location);
     }
 
     // Utility function to get the balance of a node.
@@ -132,6 +138,7 @@ public class AVLTree<E> {
         }
     }
 
+    // Rebalance function to maintain log(n) insertion/search/delete.
     private void rebalance(Node location) {
         // Left rotation.
         if (this.getBalance(location) > 1 && location.rightChild != null) {
@@ -236,6 +243,7 @@ public class AVLTree<E> {
             }
             location = null;
             this.rebalance(locParent);
+            this.numStored --;
         } else {
             if (location.key > key && location.leftChild != null) {
                 delete(location.leftChild, key);
@@ -243,6 +251,11 @@ public class AVLTree<E> {
                 delete(location.rightChild, key);
             }
         }
+    }
+
+    // Get the number of stored elements.
+    public int size() {
+        return this.numStored;
     }
 
     // Initiates toString() output of the tree.

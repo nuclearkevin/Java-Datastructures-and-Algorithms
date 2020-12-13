@@ -104,7 +104,7 @@ public class SortedArrayList<E> {
     }
 
     // Getter for size.
-    public int getLength() {
+    public int size() {
         return this.numStored;
     }
 

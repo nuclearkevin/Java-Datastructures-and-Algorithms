@@ -12,7 +12,7 @@ public class DataStructuresTest {
         testSSL.insertFront("Kevin!");
         testSSL.walkInsert("this works?");
         System.out.println("SLL toString():\n" + testSSL);
-        System.out.println("SLL size:" + testSSL.getSize());
+        System.out.println("SLL size:" + testSSL.size());
         System.out.println("Location of 'world!': " + testSSL.findValue("world!"));
 
         // Test the linked queue class.
@@ -26,7 +26,7 @@ public class DataStructuresTest {
         testQueue.enqueue("Kevin!");
         System.out.println("Dequeuing front element: " + testQueue.dequeue());
         System.out.println("Current queue: " + testQueue);
-        System.out.println("Queue size: " + testQueue.getSize());
+        System.out.println("Queue size: " + testQueue.size());
 
         // Test the array queue class.
         System.out.println("\nArray Queue Tests!");
@@ -51,7 +51,7 @@ public class DataStructuresTest {
         System.out.println("Current stack:\n" + testStack);
         System.out.println("Popping element: " + testStack.pop());
         System.out.println("Current stack:\n" + testStack);
-        System.out.println("Stack top element: '" + testStack.top() + "'. Stack size: " + testStack.getSize());
+        System.out.println("Stack top element: '" + testStack.top() + "'. Stack size: " + testStack.size());
 
         // Test the array stack class.
         System.out.println("\nArray Stack Tests!");
@@ -75,7 +75,7 @@ public class DataStructuresTest {
         testDLL.walkInsert("this works?");
 
         System.out.println("DLL toString():\n" + testDLL);
-        System.out.println("DLL size:" + testDLL.getSize());
+        System.out.println("DLL size:" + testDLL.size());
         System.out.println("Location of 'world!' from front: " + testDLL.findFromFront("world!"));
         System.out.println("Location of 'world!' from back: " + testDLL.findFromBack("world!"));
 

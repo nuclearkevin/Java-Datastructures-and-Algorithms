@@ -65,7 +65,7 @@ public class LinkedQueue<T> {
     }
 
     // Get the queue size.
-    public int getSize() {
+    public int size() {
         return this.numStored;
     }
 

@@ -81,7 +81,7 @@ public class SortedSinglyLinkedList<E> {
     }
 
     // Get the current number of nodes.
-    public int getSize() {
+    public int size() {
         return this.numStored;
     }
 

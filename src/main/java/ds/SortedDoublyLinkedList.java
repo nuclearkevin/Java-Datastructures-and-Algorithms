@@ -112,7 +112,7 @@ public class SortedDoublyLinkedList<E> {
     }
 
     // Gets current number of nodes.
-    public int getSize() {
+    public int size() {
         return this.numStored;
     }
 

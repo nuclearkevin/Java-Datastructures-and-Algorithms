@@ -1,7 +1,9 @@
 // Part of the data structures library written by Kevin Sawatzky as preparation for the final exam for CSCI-2010U.
+// TODO: Implement good BST deletion.
 package ds;
 public class BinarySearchTree<E> {
     private Node root;
+    private int numStored;
 
     // Inner class to store tree data.
     private class Node {
@@ -22,6 +24,7 @@ public class BinarySearchTree<E> {
         }
     }
     public BinarySearchTree () {
+        this.numStored = 0;
         this.root = null;
     }
 
@@ -42,6 +45,7 @@ public class BinarySearchTree<E> {
             if (location.leftChild == null) {
                 location.leftChild = toInsert;
                 toInsert.parent = location;
+                this.numStored ++;
             } else {
                 this.insert(location.leftChild, toInsert);
             }
@@ -49,6 +53,7 @@ public class BinarySearchTree<E> {
             if (location.rightChild == null) {
                 location.rightChild = toInsert;
                 toInsert.parent = location;
+                this.numStored ++;
             } else {
                 this.insert(location.rightChild, toInsert);
             }
@@ -77,7 +82,7 @@ public class BinarySearchTree<E> {
 
     // Initiates a deletion in the BST.
     public void delete(int key) {
-        delete(this.root, key);
+        this.delete(this.root, key);
     }
 
     // Recursively searches the BST for a key and deletes the node containing it.
@@ -97,6 +102,7 @@ public class BinarySearchTree<E> {
                     locRight.parent = locParent;
                 }
             }
+            this.numStored --;
             location = null;
         } else {
             if (location.key > key && location.leftChild != null) {
@@ -105,6 +111,11 @@ public class BinarySearchTree<E> {
                 delete(location.rightChild, key);
             }
         }
+    }
+
+    // Get the number of stored elements.
+    public int size() {
+        return this.numStored;
     }
 
     // Initiates toString() output of the tree.

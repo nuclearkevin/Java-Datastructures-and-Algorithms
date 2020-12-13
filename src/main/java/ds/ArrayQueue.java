@@ -2,17 +2,17 @@
 package ds;
 public class ArrayQueue<E> {
     private Object[] queueData;
-    private int length, capacity;
+    private int numStored, capacity;
 
     public ArrayQueue () {
-        this.length = 0;
+        this.numStored = 0;
         this.capacity = 1;
         this.queueData = new Object[1];
     }
 
     // Resize the array if inserting another element would exceed the capacity.
     private void resize() {
-        if ((this.length + 1) >= this.capacity) {
+        if ((this.numStored + 1) >= this.capacity) {
             // Make a new array double the capacity of the previous.
             Object[] tempArray = new Object[this.queueData.length * 2];
 
@@ -29,29 +29,25 @@ public class ArrayQueue<E> {
 
     // Method to check if the queue is empty or not.
     public boolean isEmpty () {
-        if (this.length == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return (this.numStored == 0);
     }
 
     // Queues a new element.
     public void enqueue(E value) {
         this.resize();
 
-        this.queueData[this.length] = value;
-        this.length ++;
+        this.queueData[this.numStored] = value;
+        this.numStored ++;
     }
 
     // Dequeues the front element.
     public E dequeue() {
         E out = (E) this.queueData[0];
 
-        for (int i = 1; i < this.length; i++) {
+        for (int i = 1; i < this.numStored; i++) {
             this.queueData[i - 1] = this.queueData[i];
         }
-        this.length --;
+        this.numStored --;
         return out;
     }
 
@@ -61,14 +57,14 @@ public class ArrayQueue<E> {
 
     // Getter for the stack size.
     public int getSize() {
-        return this.length;
+        return this.numStored;
     }
 
     // Queue toString() for output.
     public String toString() {
         String out = "[";
 
-        for (int i = 0; i < this.length; i++) {
+        for (int i = 0; i < this.numStored; i++) {
             if (this.queueData[i] == null) {
                 break;
             }

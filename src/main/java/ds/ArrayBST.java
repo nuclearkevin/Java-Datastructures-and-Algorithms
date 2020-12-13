@@ -5,6 +5,7 @@ public class ArrayBST {
     private Node[] tree;
     private int depth, numStored;
 
+    // Inner class for key-value pairs.
     private class Node {
         String nodeData;
         int key;

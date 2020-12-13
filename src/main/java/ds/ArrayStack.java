@@ -2,17 +2,17 @@
 package ds;
 public class ArrayStack<E> {
     private Object[] stackData;
-    private int length, capacity;
+    private int numStored, capacity;
 
     public ArrayStack() {
-        this.length = 0;
+        this.numStored = 0;
         this.capacity = 1;
         this.stackData = new Object[1];
     }
 
     // Resize the array if inserting another element would exceed the capacity.
     private void resize() {
-        if ((this.length + 1) >= this.capacity) {
+        if ((this.numStored + 1) >= this.capacity) {
             // Make a new array double the capacity of the previous.
             Object[] tempArray = new Object[this.stackData.length * 2];
 
@@ -29,17 +29,17 @@ public class ArrayStack<E> {
 
     // Inserts a value to the top of the stack.
     public void push(E value) {
-        if (this.length != 0) {
+        if (this.numStored != 0) {
             this.resize();
 
-            for (int i = this.length - 1; i >= 0; i--) {
+            for (int i = this.numStored - 1; i >= 0; i--) {
                 this.stackData[i + 1] = this.stackData[i];
             }
             this.stackData[0] = value;
-            this.length++;
+            this.numStored++;
         } else {
             this.stackData[0] = value;
-            this.length++;
+            this.numStored++;
         }
     }
 
@@ -47,10 +47,10 @@ public class ArrayStack<E> {
     public E pop() {
         E out = (E) this.stackData[0];
 
-        for (int i = 1; i < this.length; i++) {
+        for (int i = 1; i < this.numStored; i++) {
             this.stackData[i - 1] = this.stackData[i];
         }
-        this.length --;
+        this.numStored --;
         return out;
     }
 
@@ -70,14 +70,14 @@ public class ArrayStack<E> {
 
     // Getter for the stack size.
     public int getSize() {
-        return this.length;
+        return this.numStored;
     }
 
     // Stack toString() for output.
     public String toString() {
         String out = "[";
 
-        for (int i = 0; i < this.length; i++) {
+        for (int i = 0; i < this.numStored; i++) {
             if (this.stackData[i] == null) {
                 break;
             }

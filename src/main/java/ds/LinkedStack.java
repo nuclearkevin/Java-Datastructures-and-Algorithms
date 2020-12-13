@@ -2,7 +2,7 @@
 package ds;
 public class LinkedStack<E> {
     private Node head;
-    private int length;
+    private int numStored;
 
     // Inner class to store stack data.
     private class Node {
@@ -19,7 +19,7 @@ public class LinkedStack<E> {
     }
     public LinkedStack () {
         this.head = null;
-        this.length = 0;
+        this.numStored = 0;
     }
 
     // Inserts a value to the top of the stack.
@@ -27,11 +27,11 @@ public class LinkedStack<E> {
         Node pushedNode = new Node(value);
         if (this.head == null) {
             this.head = pushedNode;
-            this.length ++;
+            this.numStored ++;
         } else {
             pushedNode.next = this.head;
             this.head = pushedNode;
-            this.length ++;
+            this.numStored ++;
         }
     }
 
@@ -39,7 +39,7 @@ public class LinkedStack<E> {
     public E pop() {
         E outData = this.head.nodeData;
         this.head = this.head.next;
-        this.length --;
+        this.numStored --;
         return outData;
     }
 
@@ -58,8 +58,8 @@ public class LinkedStack<E> {
     }
 
     // Getter for the stack size.
-    public int getSize() {
-        return this.length;
+    public int size() {
+        return this.numStored;
     }
 
     // Stack toString() for output.

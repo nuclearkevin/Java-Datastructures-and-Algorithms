@@ -20,7 +20,12 @@ public class AlgorithmsTest {
 
         // Testing the binary search algorithm.
         testArray = new int[] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        System.out.println("Testing binary search!\n 8 is at index: "
+        System.out.println("Testing binary search!\n8 is at index: "
                 + BinarySearch.binarySearch(testArray, 8, 0, testArray.length - 1));
+
+        // Testing divide and conquer min and max functions.
+        testArray = new int[] {1, 10, 5, 2, 8, 13, 100, 40, 30, 60};
+        System.out.println("Testing max function, largest value '100' is: " + MinMaxDC.MaxDC(testArray, 0, testArray.length - 1));
+
     }
 }
