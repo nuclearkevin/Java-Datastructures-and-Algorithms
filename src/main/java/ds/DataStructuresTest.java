@@ -144,7 +144,7 @@ public class DataStructuresTest {
         System.out.println("Removing: " + testUnorderedMap.remove(2));
         System.out.println("The map after removal:\n" + testUnorderedMap);
 
-        // Test the hash map class.
+        // Test the hash table classes.
         System.out.println("\nHash Map Tests!");
     }
 }

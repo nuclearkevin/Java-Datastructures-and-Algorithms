@@ -82,6 +82,33 @@ public class UnsortedArrayList<E> {
         return (E) this.arrayData[index];
     }
 
+    // Sets the value at a given index.
+    public void set(int index, E value) {
+        this.arrayData[index] = value;
+    }
+
+    // Returns the index location of an element. Returns -1 if not found.
+    public int indexOf(E value) {
+        for (int i = 0; i < this.numStored; i++) {
+            if (this.arrayData[i] == value) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public E remove(int index) {
+        E out = (E) this.arrayData[index];
+
+        this.arrayData[index] = null;
+
+        // Shuffle all the elements back by one.
+        for (int i = index; i < this.arrayData.length; i ++) {
+            this.arrayData[i] = this.arrayData[i + 1];
+        }
+        return out;
+    }
+
     // Getter for size.
     public int getLength() {
         return this.numStored;

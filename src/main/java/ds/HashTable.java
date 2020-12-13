@@ -6,6 +6,7 @@ public interface HashTable<E> {
     E remove(String key);
     boolean isEmpty();
     int size();
+    int capacity();
     Object[][] elementSet();
     String[] keySet();
     E[] valueSet();

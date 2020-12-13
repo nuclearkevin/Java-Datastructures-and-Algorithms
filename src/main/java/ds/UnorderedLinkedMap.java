@@ -23,11 +23,11 @@ public class UnorderedLinkedMap<T, E> {
     // Walks the list and inserts a key-value pair at the end.
     public void put(String key, E value) {
         Node insertNode = new Node(key, value);
+        insertNode.next = null;
+
         if (this.head == null) {
             // Insert at the front for an empty list.
             this.head = insertNode;
-            insertNode.next = null;
-            this.numStored ++;
         } else {
             // Walk and insert at end.
             Node current = this.head;
@@ -35,9 +35,8 @@ public class UnorderedLinkedMap<T, E> {
                 current = current.next;
             }
             current.next = insertNode;
-            insertNode.next = null;
-            this.numStored ++;
         }
+        this.numStored ++;
     }
 
     // Searches the list (head to tail) to find a value given its key.
@@ -82,7 +81,6 @@ public class UnorderedLinkedMap<T, E> {
     public E replace(String key, E newValue) {
         // Walk until the key is found.
         Node current = this.head;
-        Node previous = null;
         while (current.next != null) {
             // If the key is found, swap the node data to the new data.
             if (current.key == key) {
@@ -90,6 +88,7 @@ public class UnorderedLinkedMap<T, E> {
                 current.nodeData = newValue;
                 return out;
             }
+            current = current.next;
         }
         // If the key wasn't found, return null.
         return null;

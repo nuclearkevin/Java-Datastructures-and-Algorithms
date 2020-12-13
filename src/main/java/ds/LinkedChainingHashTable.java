@@ -2,22 +2,23 @@
 package ds;
 abstract class LinkedChainingHashTable<E> implements HashTable<E> {
     private int numStored, size;
-
-    // ArrayList of SLL's to store table data.
+    // Unordered linked map to store key-value pairs.
     private UnsortedArrayList<UnorderedLinkedMap<String, E>> tableData;
 
     public LinkedChainingHashTable (int size) {
         this.size = size;
-        this.tableData = new UnsortedArrayList(size);
+        this.tableData = new UnsortedArrayList<>(size);
     }
 
+    // Abstract hashing function to be declared by the user.
     abstract int hash(String key);
 
+    // Inserts into the hashtable.
     public E put(String key, E value) {
         int insertHash = this.hash(key);
 
         if (this.tableData.get(insertHash) == null) {
-            this.tableData.insert(new UnorderedLinkedMap(), insertHash);
+            this.tableData.insert(new UnorderedLinkedMap<>(), insertHash);
             this.tableData.get(insertHash).put(key, value);
 
             this.numStored ++;
@@ -25,43 +26,53 @@ abstract class LinkedChainingHashTable<E> implements HashTable<E> {
             if (this.tableData.get(insertHash).get(key) == null) {
                 this.tableData.get(insertHash).put(key, value);
             } else {
-                return (E) this.tableData.get(insertHash).replace(key, value);
+                return this.tableData.get(insertHash).replace(key, value);
             }
             this.numStored ++;
         }
         return null;
     }
 
+    // Gets a value associated with a key.
     public E get(String key) {
         int indexHash = this.hash(key);
 
         if (this.tableData.get(indexHash) != null) {
-            return (E) this.tableData.get(indexHash).get(key);
+            return this.tableData.get(indexHash).get(key);
         } else {
             return null;
         }
     }
 
+    // Removes a value associated with a key.
     public E remove(String key) {
         int indexHash = this.hash(key);
 
         if (this.tableData.get(indexHash) != null) {
             if (this.tableData.get(indexHash).get(key) != null) {
                 this.numStored --;
-                return (E) this.tableData.get(indexHash).remove(key);
+                return this.tableData.get(indexHash).remove(key);
             }
         }
         return null;
     }
 
+    // Check to see if the table is empty.
     public boolean isEmpty() {
         return (this.numStored == 0);
     }
 
+    // Get the number of elements in the table.
     public int size() {
         return this.size;
     }
 
+    // Get the capacity of the hash part of the table.
+    public int capacity() {
+        return this.size;
+    }
+
+    // Returns a collection of key-value pairs in 2D array form.
     public Object[][] elementSet() {
         Object[][] out = new Object[2][this.numStored];
 
@@ -81,6 +92,7 @@ abstract class LinkedChainingHashTable<E> implements HashTable<E> {
         return out;
     }
 
+    // Returns an array of keys.
     public String[] keySet() {
         String[] out = new String[this.numStored];
 
@@ -100,6 +112,7 @@ abstract class LinkedChainingHashTable<E> implements HashTable<E> {
         return out;
     }
 
+    // Returns an array of values.
     public E[] valueSet() {
         Object[] out = new Object[this.numStored];
 

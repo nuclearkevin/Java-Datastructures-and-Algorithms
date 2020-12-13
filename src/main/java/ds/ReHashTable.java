@@ -73,13 +73,14 @@ public abstract class ReHashTable<E> implements HashTable<E> {
         return this.numStored;
     }
 
+    // Return the size of the hash table.
+    public int capacity() {
+        return this.capacity;
+    }
+
     // Method to determine if the unordered map is empty or not.
     public boolean isEmpty() {
-        if (this.numStored == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return (this.numStored == 0);
     }
 
     // Returns a collection of all the entries in the unordered map. 2D array format.
@@ -98,7 +99,7 @@ public abstract class ReHashTable<E> implements HashTable<E> {
     }
 
     // Returns an array containing all the values in the unordered map.
-    public Object[] values() {
+    public E[] valueSet() {
         return (E[]) this.mapData;
     }
 
