@@ -3,19 +3,19 @@
 package alg;
 public class MergeSort {
 
-    public static void mergeSort(int[] arrayTOSort) {
+    public static void mergeSort(double[] arrayTOSort) {
         sort(arrayTOSort);
     }
 
-    private static void sort(int[] array) {
+    private static void sort(double[] array) {
         if (array.length < 2) {
             return;
         }
-        int[] halfOne, halfTwo;
+        double[] halfOne, halfTwo;
 
         if (array.length % 2 == 0) {
-            halfOne = new int[(array.length / 2)];
-            halfTwo = new int[(array.length / 2)];
+            halfOne = new double[(array.length / 2)];
+            halfTwo = new double[(array.length / 2)];
             for (int i = 0; i < (array.length / 2); i++) {
                 halfOne[i] = array[i];
             }
@@ -23,8 +23,8 @@ public class MergeSort {
                 halfTwo[i - (array.length / 2)] = array[i];
             }
         } else {
-            halfOne = new int[(array.length / 2)];
-            halfTwo = new int[(array.length / 2) + 1];
+            halfOne = new double[(array.length / 2)];
+            halfTwo = new double[(array.length / 2) + 1];
             for (int i = 0; i < (array.length / 2); i++) {
                 halfOne[i] = array[i];
             }
@@ -38,7 +38,7 @@ public class MergeSort {
         merge(array, halfOne, halfTwo);
     }
 
-    private static void merge(int[] target, int[] halfOne, int[] halfTwo) {
+    private static void merge(double[] target, double[] halfOne, double[] halfTwo) {
         int i = 0;
         int j = 0;
 

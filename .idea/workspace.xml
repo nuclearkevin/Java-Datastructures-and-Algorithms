@@ -20,15 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce70d11b-66bc-417e-8d50-a1719d479b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/FourierTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/ClosestPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/AlgorithmsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/AlgorithmsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/AVLTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/AVLTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/BinarySearchTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/Complex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/Complex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/FourierTransform.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/FourierTransform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/MergeSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alg/AlgorithmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/AlgorithmsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/FourierTransform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/FourierTransform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alg/MinMaxDC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/MinMaxDC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,22 +128,38 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1607831167699" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1608058268388">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1608069007128">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1608058268388" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1608058268388">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1608069007128" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1608069007127">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1608058268388" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1608058268388">
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1608069007127" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1608069007127">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1608058268388" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1608058268388">
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1608069007127" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1608069007128">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1608058268388" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1608069007128" />
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1608066351789">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1608066351789" />
+    <state width="1802" height="340" key="GridCell.Tab.1.center" timestamp="1608066351789">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1608066351789" />
+    <state width="1802" height="340" key="GridCell.Tab.1.left" timestamp="1608066351789">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1608066351789" />
+    <state width="1802" height="340" key="GridCell.Tab.1.right" timestamp="1608066351789">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1608066351789" />
     <state x="777" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607828013592">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

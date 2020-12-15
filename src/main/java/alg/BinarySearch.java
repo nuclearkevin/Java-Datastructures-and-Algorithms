@@ -1,7 +1,7 @@
 // Part of the data structures library written by Kevin Sawatzky as preparation for the final exam for CSCI-2010U.
 package alg;
 public class BinarySearch {
-    public static int binarySearch(int[] array, int toFind, int startIndex, int endIndex) {
+    public static int binarySearch(double[] array, double toFind, int startIndex, int endIndex) {
         if (startIndex < endIndex && startIndex < array.length && endIndex < array.length
                 && startIndex > -1 && endIndex > -1) {
             return search(array, toFind, startIndex, endIndex);
@@ -10,7 +10,7 @@ public class BinarySearch {
         }
     }
 
-    private static int search(int[] array, int toFind, int startIndex, int endIndex) {
+    private static int search(double[] array, double toFind, int startIndex, int endIndex) {
         // Element not found, killing the recursion.
         if (endIndex < startIndex) {
             return -1;

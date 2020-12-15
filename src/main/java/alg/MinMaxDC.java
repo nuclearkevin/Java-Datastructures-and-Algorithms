@@ -2,7 +2,7 @@
 package alg;
 public class MinMaxDC {
 
-    public static int MaxDC(int array[], int start, int end) {
+    public static double MaxDC(double array[], int start, int end) {
         // Base cases.
         if (end == start) {
             return array[end];
@@ -22,7 +22,7 @@ public class MinMaxDC {
         }
     }
 
-    public static int MinDC(int array[], int start, int end) {
+    public static double MinDC(double array[], int start, int end) {
         // Base cases.
         if (end == start) {
             return array[end];
@@ -42,11 +42,12 @@ public class MinMaxDC {
         }
     }
 
-    private static int max(int i, int j) {
+    // Helper functions for max/min.
+    private static double max(double i, double j) {
         return (i > j) ? i : j;
     }
 
-    private static int min(int i, int j) {
+    private static double min(double i, double j) {
         return (i < j) ? i : j;
     }
 }

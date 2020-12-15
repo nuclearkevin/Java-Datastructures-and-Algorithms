@@ -3,7 +3,7 @@
 package alg;
 public class FourierTransform {
     // Fast Fourier Transform function to initialize the recursion stack.
-    public static Complex[] FFT(double[] toFFT) {
+    public static Complex[] fFT(double[] toFFT) {
         int n = 0;
         int j = 0;
 
@@ -15,7 +15,8 @@ public class FourierTransform {
 
         // Create a new array, copy over the elements from the data to be
         // transformed and fills the end with zeros. This allows for
-        // datasets of sizes other than powers of two.
+        // datasets of sizes other than powers of two. Causes
+        // inaccuracies in the resulting transform as a consequence.
         double[] massagedData;
         if (n != toFFT.length) {
             massagedData = new double[n];
@@ -31,7 +32,7 @@ public class FourierTransform {
         }
 
         // Initialize the recursion stack.
-        Complex[] transformed = FFT(massagedData, n);
+        Complex[] transformed = fFT(massagedData, n);
 
         // Remove the zeros added at the end and return the result of the FFT.
         if (transformed.length != toFFT.length) {
@@ -48,7 +49,7 @@ public class FourierTransform {
     }
 
     // Actual recursive FFT.
-    private static Complex[] FFT(double[] massagedData, int n) {
+    private static Complex[] fFT(double[] massagedData, int n) {
         // Base case.
         if (n == 1) {
             Complex[] P = new Complex[1];
@@ -65,8 +66,8 @@ public class FourierTransform {
         }
 
         // Take the FFT of both sides, conquer step.
-        Complex[] complexEven = FFT(even, n / 2);
-        Complex[] complexOdd = FFT(odd, n / 2);
+        Complex[] complexEven = fFT(even, n / 2);
+        Complex[] complexOdd = fFT(odd, n / 2);
 
         // Create an array to store the merged transformed data.
         Complex [] transformed = new Complex[n];
@@ -95,7 +96,8 @@ public class FourierTransform {
 
         // Create a new array, copy over the elements from the data to be
         // transformed and fills the end with zeros. This allows for
-        // datasets of sizes other than powers of two.
+        // datasets of sizes other than powers of two. Causes
+        // inaccuracies in the resulting transform as a consequence.
         Complex[] massagedData;
         if (n != toIFFT.length) {
             massagedData = new Complex[n];
