@@ -26,6 +26,21 @@ public class AlgorithmsTest {
         // Testing divide and conquer min and max functions.
         testArray = new int[] {1, 10, 5, 2, 8, 13, 100, 40, 30, 60};
         System.out.println("Testing max function, largest value '100' is: " + MinMaxDC.MaxDC(testArray, 0, testArray.length - 1));
+        System.out.println("Testing min function, smallest value '1' is: " + MinMaxDC.MinDC(testArray, 0, testArray.length - 1));
 
+        // FFT test.
+        double[] testData = new double[] {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0};
+        Complex[] testFFT = FourierTransform.FFT(testData);
+
+        System.out.println("FFT:");
+        for (int i = 0; i < testFFT.length; i++) {
+            System.out.printf("%s, ", testFFT[i]);
+        }
+
+        double[] testIFFT = FourierTransform.iFFT(testFFT);
+        System.out.println("\nIFFT:");
+        for (int i = 0; i < testIFFT.length; i++) {
+            System.out.printf("%f, ", testIFFT[i]);
+        }
     }
 }

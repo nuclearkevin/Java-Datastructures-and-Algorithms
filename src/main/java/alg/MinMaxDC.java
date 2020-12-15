@@ -36,9 +36,9 @@ public class MinMaxDC {
 
         // Conquer.
         if ((end + start) % 2 == 0) {
-            return min(MaxDC(array, start, middle), MaxDC(array, middle + 1, end));
+            return min(MinDC(array, start, middle), MinDC(array, middle + 1, end));
         } else {
-            return min(MaxDC(array, start, middle - 1), MaxDC(array, middle, end));
+            return min(MinDC(array, start, middle - 1), MinDC(array, middle, end));
         }
     }
 

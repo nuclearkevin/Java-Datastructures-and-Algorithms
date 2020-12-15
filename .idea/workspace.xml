@@ -20,44 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce70d11b-66bc-417e-8d50-a1719d479b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/MinMaxDC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/FourierTransform.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/AlgorithmsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/alg/AlgorithmsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/AVLTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/AVLTree$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayBST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayBST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/ArrayStack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/BinarySearchTree$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/DataStructuresTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/DataStructuresTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinHashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinHashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinkedChainingHashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinkedChainingHashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinkedQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinkedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/LinkedStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/QuadHashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/QuadHashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/SortedArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/SortedArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/SortedDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/SortedDoublyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/SortedSinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/SortedSinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/UnsortedDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/UnsortedDoublyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/UnsortedSinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Datastructures-and-Algorithms/ds/UnsortedSinglyLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alg/AlgorithmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/AlgorithmsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/AVLTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/ArrayBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/ArrayBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/DataStructuresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/DataStructuresTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/LinHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/LinHashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/LinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/LinkedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/QuadHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/QuadHashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/SortedArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/SortedArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/SortedDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/SortedDoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/SortedSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/SortedSinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/UnsortedDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/UnsortedDoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/UnsortedSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/UnsortedSinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/MinMaxDC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/MinMaxDC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,22 +124,22 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1607831167699" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1607899120703">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1608058268388">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1607899120703" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1607899120703">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1608058268388" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1608058268388">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1607899120703" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1607899120703">
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1608058268388" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1608058268388">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1607899120703" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1607899120703">
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1608058268388" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1608058268388">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1607899120703" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1608058268388" />
     <state x="777" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607828013592">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
