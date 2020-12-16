@@ -1,0 +1,8 @@
+#Directory ingnores
+out/
+.idea/
+
+#File ignores
+Java-Datastructures-and-Algorithms.iml
+
+#File type ignores

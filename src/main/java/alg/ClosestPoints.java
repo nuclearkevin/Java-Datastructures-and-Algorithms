@@ -3,7 +3,7 @@ package alg;
 public class ClosestPoints {
     // Closest point function to initialize the recursion stack.
     public static double findClosestDistance(Point[] points) {
-        // Mergesort to sort the points by x coordinates (the nlong(n) part).
+        // Mergesort to sort the points by x coordinates (the nlog(n) part).
         mergeSort(points);
 
         // Initiate the recursive calls (the log(n) part).
