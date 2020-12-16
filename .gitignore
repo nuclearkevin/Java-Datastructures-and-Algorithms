@@ -1,6 +1,6 @@
 #Directory ingnores
-out/
-.idea/
+/out/*
+/.idea/*
 
 #File ignores
 Java-Datastructures-and-Algorithms.iml
