@@ -1,2 +1,2 @@
 # Java-Datastructures-and-Algorithms
-A library of Java datastructures and algorithms, with a focus on divide and conquer approaches.
+A library of generic Java datastructures and algorithms, with a focus on divide and conquer approaches.
